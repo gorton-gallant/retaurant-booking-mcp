@@ -1,0 +1,18 @@
+
+version: "3"
+agent:
+  authtoken: 34WkLfiT3VtBm7dgrS64xdlW86J_seJ3TDRrSAFSAPzAcJbk
+
+endpoints:
+  - name: mcp-server
+    url: https://tgallant-mcp-server.ngrok.app
+    upstream:
+      url: 8000
+  - name: file-server
+    url: https://tgallant-file-server.ngrok.app
+    upstream:
+      url: 3000
+  - name: login-server
+    url: https://tgallant-login-server.ngrok.app
+    upstream:
+      url: 8006
