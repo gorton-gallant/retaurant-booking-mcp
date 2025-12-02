@@ -1,4 +1,4 @@
-# Pizzaz MCP server (Python)
+# Restaurant Booking MCP server (Python)
 
 This directory packages a Python implementation of the Pizzaz demo server using the `FastMCP` helper from the official Model Context Protocol SDK. It mirrors the Node example and exposes each pizza widget as both a resource and a tool.
 
